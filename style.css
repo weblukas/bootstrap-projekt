@@ -1,0 +1,30 @@
+/*colors*/
+:root{
+    --blue: #264653;
+    --light-blue: #2a9d8f;
+    --yellow: #e9c46a;
+    --orange: #f4a261;
+}
+
+*{
+    outline: 1px solid black;
+}
+
+.col-sm {
+    background-color: var(--orange);
+}
+.container-md{
+    
+    background-color: var(--blue);
+}
+.container-fluid{
+
+    background-color: var(--yellow);
+}
+
+.row {
+    background-color: lightblue;
+}
+.col {
+    background-color: var(--light-blue);
+}
